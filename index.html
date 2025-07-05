@@ -93,7 +93,8 @@ $(function(){ initResizable(false); });
 <p>The <code>OctomapMapsBuilderNode</code> subscribes to sensor point cloud topics, processes and filters the data, and incrementally builds an Octomap representation of the environment. It publishes the resulting maps as ROS messages in both binary and full map formats.</p>
 <h1><a class="anchor" id="autotoc_md1"></a>
 Installation</h1>
-<p>Clone the repository into your ROS 2 workspace: </p><div class="fragment"><div class="line">cd ~/ros2_ws/src</div>
+<p>Clone the repository into your ROS 2 workspace. Temporarilly you will need to install octomap-ros from a ThirdParties:</p>
+<div class="fragment"><div class="line">cd ~/ros2_ws/src</div>
 <div class="line">git clone https://github.com/EasyNavigation/easynav_octomap_stack.git</div>
 <div class="line">vcs import &lt; easynav_octomap_stack/thirdparty.repos</div>
 <div class="line">cd ..</div>
